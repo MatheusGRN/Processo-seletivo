@@ -5,6 +5,6 @@ import java.util.Calendar;
 
 public interface AnaliseCurricular {
 	
-	public void analiseCurricular(String nome, File foto, String contribuicoes, String experiencias, Calendar InicioCurso, Calendar finalCurso, File videoCurriculo);
+	public void analiseCurricular(String nome, File foto, String contribuicoes, String experiencias, Calendar InicioCurso, Calendar finalCurso, String areaDeTrabalho, File videoCurriculo);
 
 }
